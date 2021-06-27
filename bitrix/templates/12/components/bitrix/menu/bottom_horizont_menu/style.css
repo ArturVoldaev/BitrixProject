@@ -1,0 +1,75 @@
+/* Left menu*/
+ul.left-menu
+{
+	margin: 0;
+	padding: 20px 20px 15px 20px;
+	display: grid;
+	grid-template-columns: max-content max-content max-content max-content max-content max-content;
+	gap: 0px 1px;
+	max-width: 924px;
+	background-color: #4e2c1e;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	list-style-type: none;
+}
+
+ul.left-menu li
+{
+	border-right: 1px solid white;
+	padding: 0px 40px 0px 20px;
+}
+
+ul.left-menu li a
+{
+	font-size: 11px;
+	font-family: "Arial", sans-serif;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-shadow: 0px 1px 0px rgba(17, 17, 26, 0.46);
+	text-decoration: none;
+	
+}
+ul.left-menu li:nth-child(6)
+{
+	border-right: none;
+	padding: 0px 20px 0px 40px;
+}
+ul.left-menu li:nth-child(2)
+{
+	padding: 0px 40px 0px 40px;
+}
+ul.left-menu li:nth-child(3)
+{
+	padding: 0px 40px 0px 40px;
+}
+ul.left-menu li:nth-child(4)
+{
+	padding: 0px 40px 0px 40px;
+}
+ul.left-menu li:nth-child(5)
+{
+	padding: 0px 40px 0px 40px;
+}
+
+
+
+ul.left-menu li a:visited
+{
+	
+}
+
+ul.left-menu li a:hover
+{
+	opacity: 0.6;	
+}
+
+
+ul.left-menu li a.selected:link,
+ul.left-menu li a.selected:visited,
+ul.left-menu li a.selected:active,
+ul.left-menu li a.selected:hover
+{
+	
+}
+
+

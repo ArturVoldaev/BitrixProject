@@ -1,0 +1,209 @@
+
+
+/* Start:/bitrix/templates/12/components/bitrix/menu/horizontal_multilevel1_Art/style.css?16246986582927*/
+.header__menu {
+  margin: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 350px;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  background-image: -moz-linear-gradient( 90deg, rgb(164,103,31) 0%, rgb(131,76,11) 14%, rgb(119,71,11) 25%, rgb(176,120,43) 55%, rgb(233,192,135) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(164,103,31) 0%, rgb(131,76,11) 14%, rgb(119,71,11) 25%, rgb(176,120,43) 55%, rgb(233,192,135) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(164,103,31) 0%, rgb(131,76,11) 14%, rgb(119,71,11) 25%, rgb(176,120,43) 55%, rgb(233,192,135) 100%);
+  box-shadow: 0px 1px 0px 0px rgba(126, 79, 19, 0.004);
+  z-index: 50;
+  border-radius: 5px;
+}
+.header__warp {
+  margin: auto;
+  min-width: 115px;
+  min-height: 40px;
+  display: flex;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #77470b;
+  border-radius: 5px 0px 0px 5px;
+}
+.header__warp:hover {
+  background-color: #f7e7c4 ;
+}
+.header__warp:hover .header__submenu-personal {
+  display: block;
+}
+.header__warp:hover .header__menu-link {
+  color: rgb(69, 37, 10);
+  background-image: -moz-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+  border-radius: 5px;
+}
+.header__warp:nth-child(3) {
+  border-right: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.header__warp:nth-child(2) {
+  border-radius: 0px 0px 0px 0px;
+}
+.header__menu-link {
+  width: 100%;
+  height: 40px;
+  font-size: 11px;
+  font-family: "Verdana", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-shadow: 0px 1px 0px rgba(17, 17, 26, 0.46) ;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: pre-wrap;
+}
+.header__menu-link:hover {
+  color: rgb(69, 37, 10);
+}
+.header__submenu-personal {
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  background-color: #f7e7c4;
+  min-width: 192px;
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0px;
+  z-index: 50;
+  text-align: start;
+  border: 1px solid #bfa485;
+}
+#horizontal-multilevel-menu li li {
+  max-width: 100%;
+  height: 30px;
+}
+#horizontal-multilevel-menu li li:hover {
+  background-color: #d8af75 ;
+}
+#horizontal-multilevel-menu li ul a {
+  padding-left: 10px;
+  text-decoration: none;
+  text-align: start;
+  font-size: 14px;
+  font-family: "Verdana", Arial, sans-serif;
+  color: rgb(69, 37, 10);
+  line-height: 2.286;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/12/template_styles.css?16246988952421*/
+.header__logo {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 142px);
+  z-index: 50;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1024px;
+  max-height:100%;
+  background-image: url(/bitrix/templates/12/../main/assets/images/background-clear.png);
+  background-position: center;
+  z-index: 1;
+  background-repeat: repeat-y;
+}
+.body {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url(/bitrix/templates/12/../main/assets/images/background-sqvad-1.png);
+  object-fit: cover;
+}
+
+.cover {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+.cover__wrap {
+  width: 1024px;
+  background-image: url(/bitrix/templates/12/../main/assets/images/background-clear.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  max-width: 1024px;
+  padding: 0px 50px;
+  position: relative;
+  margin: 0px auto;
+}
+.header__container-contact-button {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #4e2c1e;
+}
+.contact {
+  margin: 0px;
+  margin-top: 23px;
+  font-size: 26px;
+  font-family: "Book Antiqua", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+.header__buttons-place {
+  display: flex;
+  width: 175px;
+  flex-direction: column;
+  padding: 7px 0 7px;
+}
+.header__button {
+  height: 24px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Book Antiqua", Arial, sans-serif;
+  color: rgb(71, 40, 0);
+  line-height: 1.2;
+  border-style: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(216, 201, 146);
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+}
+.header__button:nth-child(1) {
+  margin-bottom: 7px;
+}
+.header__button:hover {
+  cursor: pointer;
+}
+.header__container-menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background: -moz-linear-gradient(top, #4e2c1e, #fFFFFF);
+  background: -webkit-linear-gradient(top, #4e2c1e, #fFFFFF);
+}
+
+
+
+
+
+
+
+
+
+
+/* End */
+/* /bitrix/templates/12/components/bitrix/menu/horizontal_multilevel1_Art/style.css?16246986582927 */
+/* /bitrix/templates/12/template_styles.css?16246988952421 */

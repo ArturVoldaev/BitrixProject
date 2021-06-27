@@ -1,0 +1,8 @@
+.body {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url(../../images/background-sqvad-1.png);
+  /*background-repeat:repeat;*/
+  /*background-position: center;*/
+  object-fit: cover;
+}
